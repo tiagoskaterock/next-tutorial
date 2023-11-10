@@ -1,14 +1,17 @@
 "use client"
 
 import {useState, FormEvent} from "react" 
+import {useRouter} from "next/navigation"
 
 export default function Page() {
 
   const [inputVal, setInputVal] = useState("")
 
+  const {push} = useRouter() 
+
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault()
-    
+    push(`/prediction/${inputVal}`)
   }
 
   return (
@@ -22,6 +25,7 @@ export default function Page() {
           type="text" 
           placeholder="Type your name..." 
           value={inputVal}
+          className="text-black"
           onChange={ (e) => setInputVal(e.target.value) }
         />
         <button type="submit">Predict Data</button>
