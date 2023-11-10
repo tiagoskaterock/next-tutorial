@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Next Tutorial</h1>
 
-## Getting Started
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,next,tailwind" alt="Dev icons" />
+</p>
 
-First, run the development server:
+<p align="center">This project uses 3 APIs to make a predition about age, gender and nationality of a given name, using React JS, Next JS and Tailwind CSS for some style. </p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">Download the project</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">In the project directory, you can run:</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p align="center"><i>npm install</i></p>
+<p align="center"><i>npm run dev</i></p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p align="center">
+	You can find the tutorial here
+	<a href="https://www.youtube.com/watch?v=PtDIVU_tlo0&t=256s">
+		NextJS Beginner Project Tutorial - Learn NextJS 13 With This Easy Project
+	</a>
+</p>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">
+  <img src="1.png" alt="Website" />
+  <img src="2.png" alt="Website" />
+</p>
